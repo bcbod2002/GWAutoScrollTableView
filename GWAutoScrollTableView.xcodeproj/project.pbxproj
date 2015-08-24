@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCFCABC01B8BE536006A93B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFCABBF1B8BE536006A93B2 /* main.m */; };
+		FCFCABC31B8BE536006A93B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFCABC21B8BE536006A93B2 /* AppDelegate.m */; };
+		FCFCABC61B8BE536006A93B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFCABC51B8BE536006A93B2 /* ViewController.m */; };
+		FCFCABC91B8BE536006A93B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFCABC71B8BE536006A93B2 /* Main.storyboard */; };
+		FCFCABCB1B8BE536006A93B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFCABCA1B8BE536006A93B2 /* Images.xcassets */; };
+		FCFCABCE1B8BE536006A93B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFCABCC1B8BE536006A93B2 /* LaunchScreen.xib */; };
+		FCFCABDA1B8BE536006A93B2 /* GWAutoScrollTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFCABD91B8BE536006A93B2 /* GWAutoScrollTableViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCFCABD41B8BE536006A93B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFCABB21B8BE536006A93B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFCABB91B8BE536006A93B2;
+			remoteInfo = GWAutoScrollTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCFCABBA1B8BE536006A93B2 /* GWAutoScrollTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWAutoScrollTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFCABBE1B8BE536006A93B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFCABBF1B8BE536006A93B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCFCABC11B8BE536006A93B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCFCABC21B8BE536006A93B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCFCABC41B8BE536006A93B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCFCABC51B8BE536006A93B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCFCABC81B8BE536006A93B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCFCABCA1B8BE536006A93B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FCFCABCD1B8BE536006A93B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FCFCABD31B8BE536006A93B2 /* GWAutoScrollTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWAutoScrollTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFCABD81B8BE536006A93B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFCABD91B8BE536006A93B2 /* GWAutoScrollTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWAutoScrollTableViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCFCABB71B8BE536006A93B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFCABD01B8BE536006A93B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCFCABB11B8BE536006A93B2 = {
+			isa = PBXGroup;
+			children = (
+				FCFCABBC1B8BE536006A93B2 /* GWAutoScrollTableView */,
+				FCFCABD61B8BE536006A93B2 /* GWAutoScrollTableViewTests */,
+				FCFCABBB1B8BE536006A93B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCFCABBB1B8BE536006A93B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCFCABBA1B8BE536006A93B2 /* GWAutoScrollTableView.app */,
+				FCFCABD31B8BE536006A93B2 /* GWAutoScrollTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCFCABBC1B8BE536006A93B2 /* GWAutoScrollTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FCFCABC11B8BE536006A93B2 /* AppDelegate.h */,
+				FCFCABC21B8BE536006A93B2 /* AppDelegate.m */,
+				FCFCABC41B8BE536006A93B2 /* ViewController.h */,
+				FCFCABC51B8BE536006A93B2 /* ViewController.m */,
+				FCFCABC71B8BE536006A93B2 /* Main.storyboard */,
+				FCFCABCA1B8BE536006A93B2 /* Images.xcassets */,
+				FCFCABCC1B8BE536006A93B2 /* LaunchScreen.xib */,
+				FCFCABBD1B8BE536006A93B2 /* Supporting Files */,
+			);
+			path = GWAutoScrollTableView;
+			sourceTree = "<group>";
+		};
+		FCFCABBD1B8BE536006A93B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCFCABBE1B8BE536006A93B2 /* Info.plist */,
+				FCFCABBF1B8BE536006A93B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCFCABD61B8BE536006A93B2 /* GWAutoScrollTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCFCABD91B8BE536006A93B2 /* GWAutoScrollTableViewTests.m */,
+				FCFCABD71B8BE536006A93B2 /* Supporting Files */,
+			);
+			path = GWAutoScrollTableViewTests;
+			sourceTree = "<group>";
+		};
+		FCFCABD71B8BE536006A93B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCFCABD81B8BE536006A93B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCFCABB91B8BE536006A93B2 /* GWAutoScrollTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFCABDD1B8BE536006A93B2 /* Build configuration list for PBXNativeTarget "GWAutoScrollTableView" */;
+			buildPhases = (
+				FCFCABB61B8BE536006A93B2 /* Sources */,
+				FCFCABB71B8BE536006A93B2 /* Frameworks */,
+				FCFCABB81B8BE536006A93B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GWAutoScrollTableView;
+			productName = GWAutoScrollTableView;
+			productReference = FCFCABBA1B8BE536006A93B2 /* GWAutoScrollTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCFCABD21B8BE536006A93B2 /* GWAutoScrollTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFCABE01B8BE536006A93B2 /* Build configuration list for PBXNativeTarget "GWAutoScrollTableViewTests" */;
+			buildPhases = (
+				FCFCABCF1B8BE536006A93B2 /* Sources */,
+				FCFCABD01B8BE536006A93B2 /* Frameworks */,
+				FCFCABD11B8BE536006A93B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCFCABD51B8BE536006A93B2 /* PBXTargetDependency */,
+			);
+			name = GWAutoScrollTableViewTests;
+			productName = GWAutoScrollTableViewTests;
+			productReference = FCFCABD31B8BE536006A93B2 /* GWAutoScrollTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCFCABB21B8BE536006A93B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = GostonWu;
+				TargetAttributes = {
+					FCFCABB91B8BE536006A93B2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FCFCABD21B8BE536006A93B2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FCFCABB91B8BE536006A93B2;
+					};
+				};
+			};
+			buildConfigurationList = FCFCABB51B8BE536006A93B2 /* Build configuration list for PBXProject "GWAutoScrollTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCFCABB11B8BE536006A93B2;
+			productRefGroup = FCFCABBB1B8BE536006A93B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCFCABB91B8BE536006A93B2 /* GWAutoScrollTableView */,
+				FCFCABD21B8BE536006A93B2 /* GWAutoScrollTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCFCABB81B8BE536006A93B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFCABC91B8BE536006A93B2 /* Main.storyboard in Resources */,
+				FCFCABCE1B8BE536006A93B2 /* LaunchScreen.xib in Resources */,
+				FCFCABCB1B8BE536006A93B2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFCABD11B8BE536006A93B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCFCABB61B8BE536006A93B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFCABC61B8BE536006A93B2 /* ViewController.m in Sources */,
+				FCFCABC31B8BE536006A93B2 /* AppDelegate.m in Sources */,
+				FCFCABC01B8BE536006A93B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFCABCF1B8BE536006A93B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFCABDA1B8BE536006A93B2 /* GWAutoScrollTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCFCABD51B8BE536006A93B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCFCABB91B8BE536006A93B2 /* GWAutoScrollTableView */;
+			targetProxy = FCFCABD41B8BE536006A93B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCFCABC71B8BE536006A93B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFCABC81B8BE536006A93B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCFCABCC1B8BE536006A93B2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFCABCD1B8BE536006A93B2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCFCABDB1B8BE536006A93B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCFCABDC1B8BE536006A93B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCFCABDE1B8BE536006A93B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GWAutoScrollTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCFCABDF1B8BE536006A93B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GWAutoScrollTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCFCABE11B8BE536006A93B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GWAutoScrollTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GWAutoScrollTableView.app/GWAutoScrollTableView";
+			};
+			name = Debug;
+		};
+		FCFCABE21B8BE536006A93B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GWAutoScrollTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GWAutoScrollTableView.app/GWAutoScrollTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCFCABB51B8BE536006A93B2 /* Build configuration list for PBXProject "GWAutoScrollTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFCABDB1B8BE536006A93B2 /* Debug */,
+				FCFCABDC1B8BE536006A93B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFCABDD1B8BE536006A93B2 /* Build configuration list for PBXNativeTarget "GWAutoScrollTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFCABDE1B8BE536006A93B2 /* Debug */,
+				FCFCABDF1B8BE536006A93B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCFCABE01B8BE536006A93B2 /* Build configuration list for PBXNativeTarget "GWAutoScrollTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFCABE11B8BE536006A93B2 /* Debug */,
+				FCFCABE21B8BE536006A93B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCFCABB21B8BE536006A93B2 /* Project object */;
+}
